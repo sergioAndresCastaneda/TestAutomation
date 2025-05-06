@@ -1,0 +1,24 @@
+[
+    {
+        "cardId": "281dd06b-181b-4613-a77a-f4cf6bcb8cc2",
+        "queryParams": {
+            "cvvNumber": "true",
+            "dynCvvNumber": "false"
+        },
+        "headers": {
+            "X-Tenant-Id": "ec-alianza-valle"
+        },
+        "holderName": "Aylin Royal"
+    },
+    {
+        "cardId": "4108be03-7a24-4bc0-94e3-286005bcecab",
+        "queryParams": {
+            "cvvNumber": "false",
+            "dynCvvNumber": "true"
+        },
+        "headers": {
+            "X-Tenant-Id": "ec-alianza-valle"
+        },
+        "holderName": "Damaris Hilma"
+    }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "clienteId": "281dd06b-181b-4613-a77a-f4cf6bcb8cc2",
+    "status": 200,
+    "tiempoMs": 1149,
+    "nombreRecibido": null,
+    "nombreEsperado": "Aylin Royal",
+    "passed": true
+  },
+  {
+    "clienteId": "4108be03-7a24-4bc0-94e3-286005bcecab",
+    "status": 200,
+    "tiempoMs": 788,
+    "nombreRecibido": null,
+    "nombreEsperado": "Damaris Hilma",
+    "passed": true
+  }
+]

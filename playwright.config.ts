@@ -36,8 +36,11 @@ export default defineConfig({
   use: {
     headless: true,
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
-
+    baseURL: process.env.ENV === 'qa' 
+    ? 'https://t-cards-api.novopayment.net' 
+    : process.env.ENV === 'UAT' 
+      ? 'https://uat-cards-api.novopayment.net'
+        : 'https://t-cards-api.novopayment.net',
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     //screenshot: 'on'
